@@ -596,6 +596,7 @@ wget -O about "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/about.sh"
 wget -O add-host "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/add-host.sh"
 wget -O running "https://raw.githubusercontent.com/myridwan/sc/ipuk/ssh/running.sh"
 wget -O speedtest "https://raw.githubusercontent.com/myridwan/src/ipuk/ssh/speedtest_cli.py"
+wget -O crtv2ray "https://raw.githubusercontnt.com/myridwan/src/ipuk/xray/crt.sh"
 chmod +x menu
 chmod +x menu-vmess
 chmod +x menu-vless
@@ -607,6 +608,7 @@ chmod +x about
 chmod +x add-host
 chmod +x running
 chmod +x speedtest
+chmod +x crtv2ray
 cd
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 443 -j ACCEPT
 iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 31301 -j ACCEPT
